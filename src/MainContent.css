@@ -1,0 +1,86 @@
+/* MainContent.css */
+
+.main-content {
+  text-align: center;
+  height: 400px; /* Set the height as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.search-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #56bbe6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.image-slider {
+  margin-top: 10px;
+}
+
+.image-slider img {
+  width: 100%; /* Set the width to 100% to cover the container */
+  height: 300px; /* Set the height to 100% to cover the container */
+  object-fit: cover;
+  border-radius: 1px;
+}
+
+.category-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow categories to wrap to the next line */
+}
+
+.category-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-button {
+  padding: 10px;
+  background-color: #56bbe6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.category-button:hover {
+  background-color: #4CAF50;
+}
+
+.category-details {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.category-image {
+  width: 100%; /* Adjust the width of the category image as needed */
+  height: auto; /* Allow the height to adjust proportionally */
+  border-radius: 5px;
+  object-fit: cover;
+}
